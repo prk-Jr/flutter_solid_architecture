@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:counter_package/counter.dart';
 
 void main() {
+  /// Wrap within the [ProviderScope] and get started with using Riverpod everywhere
   runApp(const ProviderScope(child: MyApp()));
 }
 
